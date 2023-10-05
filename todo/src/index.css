@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(212, 159, 90);
+
+}
+h1{
+  padding-top: 5rem;
+  padding-bottom: 1.5rem;
+  height: 30%;
+  text-align: center;
+
+
+}
+
+.main{
+  min-width: 40rem;
+  box-shadow: 0 0 10px 5px azure;
+  background-color: rgb(192, 204, 215);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.todo-form{
+  padding-bottom: 1.5rem;
+  background-color: aliceblue;
+  padding-top: 1.5rem;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  
+}
+
+.todo-display{
+  list-style: none;
+  line-height: 2.4rem;
+  font-size: 1rem;
+  height: 50%;
+  
+}
+
+.list{
+  overflow: scroll;
+
+}
+
+.list::-webkit-scrollbar{
+  display: none;
+}
+
+.delete{
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* background-color: #e66ab4;
+  border-radius: 3px;
+  border: none; */
+  background-color: rgba(0, 173, 181,0.5);
+  border: 2px solid rgba(0, 173, 181,0.5);
+  color:rgb(57, 62, 70);
+  border-radius: 5px;
+
+}
+
+button:hover {
+  background-color: rgb(0, 173, 181);
+}
